@@ -44,10 +44,6 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := sdm632
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno506
 
-# Crypto
-TARGET_HW_DISK_ENCRYPTION := true
-TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
-
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_serial_dm,0x78af000 androidboot.usbconfigfs=true loop.max_part=7 androidboot.selinux=permissive
 BOARD_KERNEL_BASE        := 0x80000000

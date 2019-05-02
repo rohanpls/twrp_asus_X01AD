@@ -24,4 +24,4 @@
 # components.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_X01BD.mk
+    $(LOCAL_DIR)/omni_X01AD.mk

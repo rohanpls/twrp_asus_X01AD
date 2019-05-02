@@ -24,7 +24,7 @@
 # components.
 
 # Release name
-PRODUCT_RELEASE_NAME := X01BD
+PRODUCT_RELEASE_NAME := X01AD
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -32,18 +32,18 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X01BD
-PRODUCT_NAME := omni_X01BD
+PRODUCT_DEVICE := X01AD
+PRODUCT_NAME := omni_X01AD
 PRODUCT_BRAND := asus
-PRODUCT_MODEL := Zenfone Max Pro M2
+PRODUCT_MODEL := Zenfone Max M2
 PRODUCT_MANUFACTURER := asus
-TARGET_VENDOR_PRODUCT_NAME := X01BD
-TARGET_VENDOR_DEVICE_NAME := X01BD
+TARGET_VENDOR_PRODUCT_NAME := X01AD
+TARGET_VENDOR_DEVICE_NAME := X01AD
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.keystore=sdm660 \
-    sys.usb.controller=a800000.dwc3 \
+    ro.hardware.keystore=sdm632 \
+    sys.usb.controller=7000000.dwc3 \
     sys.usb.rndis.func.name=rndis_bam \
     sys.usb.rmnet.func.name=rmnet_bam
 
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=X01BD PRODUCT_NAME=X01BD
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=X01AD PRODUCT_NAME=X01AD

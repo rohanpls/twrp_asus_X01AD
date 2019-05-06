@@ -1,7 +1,7 @@
-TWRP Device Tree for Asus Zenfone Max M2 (X01A)
+TWRP Device Tree for Asus Zenfone Max M2 (X01AD)
 ===========================================
 
-The Asus Zenfone Max M2 (codenamed _"X01A"_) is a mid-range smartphone from Asus.
+The Asus Zenfone Max M2 (codenamed _"X01AD"_) is a mid-range smartphone from Asus.
 It was announced on December, 2018.
 
 Basic   | Spec Sheet

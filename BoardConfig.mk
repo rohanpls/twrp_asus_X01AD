@@ -81,3 +81,7 @@ TARGET_USES_LOGD := true
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
+
+#PB OFFICIAL
+PB_OFFICIAL := true
+
